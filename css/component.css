@@ -1,0 +1,67 @@
+#compoment {
+  background: linear-gradient(190deg, #212832, #171e28);
+  max-width: 280px;
+  padding: 20px;
+  border-radius: 15px;
+  display: grid;
+  gap: 20px;
+
+}
+
+.icon-star {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: rgb(52, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-star img {
+  height: 12px;
+  width: 12px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+p {
+  color: var(--light-grey);
+  font-size: 0.7rem;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  height: 36px;
+  width: 36px;
+  background: var(--medium-grey);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  background: var(--orange);
+  font-weight: 400;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}

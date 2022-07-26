@@ -2,6 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+img {
+  width: 100%;
 }
 
 html {
@@ -12,5 +17,7 @@ body {
   font-family: 'Overpass', sans-serif;
   height: 100vh;
   background: var(--very-dark-blue);
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
